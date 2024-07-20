@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANY</title>
+    <!-- favIcon -->
+    <link rel="shortcut icon" href="./images/favi1.png" type="image/x-icon">
+    <!-- styling -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="flex nav1">
+        <h1>ANY</h1>
+        <i class="fa-solid fa-bars" onclick="nav()"></i>
+    </nav>
+    <!-- dummy header -->
+    <header class="naverAgain none" id="dummy">
+        <nav class="flex ">
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+        <a href="#Home">Home</a>
+        <a href="#Product">Product</a>
+        <a href="#Services">Explorin</a>
+        <a href="#contact">contact</a>
+
+    </nav>
+</header>
+<!-- dummy header -->
+    <!-- Header section -->
+    <header class="head">
+        <nav class="flex">
+            <a href="#Home" data-aos="fade-down">Home</a>
+            <a href="#Product" data-aos="fade-down">Product</a>
+            <a href="#Services" data-aos="fade-down">Explorin</a>
+            <a href="#contact" data-aos="fade-down">contact</a>
+
+        </nav>
+    </header>
+    <!-- Header section -->
+
+    <!-- Hero section -->
+    <section class="hero flex" id="Home">
+        <div class="text" data-aos="fade-right">
+            <h1>next gen</h1>
+            <h3>Vertual reality</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatem incidunt autem iste quis libero
+                enim dicta vero ducimus porro.</p>
+            <button>see more</button>
+        </div>
+        <div class="picture">
+            <img src="./BgImages/h-1.png" alt="headImage" width="20%" data-aos="zoom-in-left">
+        </div>
+    </section>
+    <!-- Hero section -->
+
+    <!-- Secondery section -->
+    <section class="secondery" id="Product">
+        <div class="cards flex">
+            <div class="card1 card" data-aos="zoom-in">
+                <div class="picture">
+                    <img src="./images/vr-3.jpeg" alt="product1">
+                </div>
+                <div class="text">
+                    <h3>Sounder Reaser</h3>
+                    <p>Jolor sit amet consectetur adipisicing elit. Facilis voluptatem fugiat odit voluptatum quas
+                        voluptate provident modi voluptas tempore ullam.</p>
+                    <button>Discover More</button>
+                </div>
+            </div>
+            <div class="card2 card" data-aos="zoom-in">
+                <div class="picture">
+                    <img src="./images/avv1.jpg" alt="product1">
+                </div>
+                <div class="text">
+                    <h3>Higher Screener</h3>
+                    <p>Jolor sit amet consectetur adipisicing elit. Facilis voluptatem fugiat odit voluptatum quas
+                        voluptate provident modi voluptas tempore ullam.</p>
+                    <button>Discover More</button>
+                </div>
+            </div>
+
+            <div class="card3 card" data-aos="zoom-in">
+                <div class="picture">
+                    <img src="./images/sv-1.jpg" alt="product1">
+                </div>
+                <div class="text">
+                    <h3>Video Quality</h3>
+                    <p>Jolor sit amet consectetur adipisicing elit. Facilis voluptatem fugiat odit voluptatum quas
+                        voluptate provident modi voluptas tempore ullam.</p>
+                    <button>Discover More</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Secondery section -->
+
+    <!-- Primary section -->
+    <section class="primery hero flex">
+
+        <div class="picture">
+            <img src="./images/home page.jpg" alt="headImage" width="20%"  data-aos="zoom-in-right">
+        </div>
+        <div class="text"  data-aos="zoom-in-left">
+            <h1>Explorin</h1>
+            <h3>Pixel at atime</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatem incidunt autem iste quis libero
+                enim dicta vero ducimus porro.</p>
+            <button>see more</button>
+        </div>
+    </section>
+    <!-- Primary section -->
+
+    <!-- First Of End section -->
+    <section class="End hero first flex" id="Services">
+        <div class="text" data-aos="zoom-in-left">
+            <h1>Eext gen</h1>
+            <h3>Vertual reality</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatem incidunt autem iste quis libero
+                enim dicta vero ducimus porro.</p>
+            <button>see more</button>
+        </div>
+
+        <div class="picture">
+            <img src="./images/VR-1.png" alt="headImage" width="20%" data-aos="zoom-in-right">
+        </div>
+    </section>
+    <!-- First Of End section -->
+
+    <!-- email -->
+    <section class="contact flex"  data-aos="zoom-in">
+        <div class="container flex">
+            <h1>Subscribe to over newsletter</h1>
+            <p>Hit amet consectetur adipisicing elit. <br> Voluptatem a illum adipisci iste consequuntur aut?</p>
+            <div class="forme flex">
+                <form action="JavaScript:void(0)" onsubmit="formSubmit()" class="flex">
+                    <input type="email" name="email" id="email" required>
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- email -->
+
+    <!-- Footer section -->
+    <footer id="contact"  >
+
+        <header>
+            <nav class="flex naver" data-aos="zoom-in">
+                <a href="#Home">Home</a>
+                <a href="#Product">Product</a>
+                <a href="#Services">Services</a>
+                <a href="#contact">contact</a>
+
+            </nav>
+        </header>
+        <div class="text flex" data-aos="zoom-in">
+            <h1>Download over app</h1>
+            <p>Xorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Distinctio nemo eligendi natus quisquam
+                quidem qui commodi quo fugit debitis veritatis.</p>
+            <img src="./images/play&app.png" alt="icons">
+        </div>
+        <hr>
+        <div class="container flex">
+
+
+            <div class="terms flex">
+                <h3>Terms</h3>
+                <h3>Privacy</h3>
+                <h3>Conditions</h3>
+            </div>
+            <div class="copyright">
+                <h3>All Rights Reserved &copy <a href="https://github.com/arzooshamim13" target="_blank"> Arzoo
+                        Shamim</a></h3>
+            </div>
+            <div class="icons flex">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-atlassian"></i>
+                <i class="fa-brands fa-slack"></i>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Footer section -->
+
+    <!-- aos scripter -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 180, 
+            delay: 0, 
+            duration: 1200
+        });
+    </script>
+    <script>
+        let addaer = 1;
+        let lower = 0;
+        let navbar = document.getElementById("dummy")
+        function nav(){
+            
+            if(addaer > lower){
+navbar.className = 'naverAgain show'
+addaer = 0;
+lower=1;
+            }else{
+                navbar.className = 'naverAgain none';
+                addaer = 1;
+                lower = 0;
+            }
+        }
+    </script>
+</body>
+
+</html>
